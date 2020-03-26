@@ -31,3 +31,9 @@ jobs:
             --TemplateExporter.exclude_input=True \
             --to html \
             ncov19-id-analysis.ipynb
+
+      - name: Publish
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: public
