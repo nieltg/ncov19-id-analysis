@@ -1,4 +1,4 @@
-name: Deploy
+name: Publish
 on:
   push:
     branches:
@@ -23,10 +23,11 @@ jobs:
 
       - name: Render
         run: |
+          mkdir -p public
           jupyter nbconvert \
             --execute \
             --no-prompt \
-            --output index.html \
+            --output public/index.html \
             --TemplateExporter.exclude_input=True \
             --to html \
             ncov19-id-analysis.ipynb
