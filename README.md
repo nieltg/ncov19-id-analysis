@@ -7,7 +7,7 @@ The report is automatically updated and available on [this page](https://nieltg.
 
 ## Hacking
 
-Contributions are welcomed in this repository. Clone this project and ensure that you have [Python 3](https://www.python.org/downloads) installed on your system.
+Contributions are welcomed. Clone this project and ensure that you have [Python 3](https://www.python.org/downloads) installed on your system.
 
 Install all required Python dependencies on your system.
 ```
@@ -19,7 +19,7 @@ Open Jupyter Notebook.
 jupyter notebook
 ```
 
-Jupyter will open in a browser window, so you can tinker the `.ipynb` file. Open a pull request when you're done.
+Jupyter will open in a new browser window, so you can tinker the `.ipynb` file. Open a pull request when you're done.
 
 ## License
 
