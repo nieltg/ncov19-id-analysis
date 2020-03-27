@@ -1,4 +1,5 @@
 # Data Analysis of NCOV-19 Cases in Indonesia
+[![GitHub Action Status](https://github.com/nieltg/ncov19-id-analysis/workflows/publish/badge.svg)](https://github.com/nieltg/ncov19-id-analysis/actions?query=workflow%3Apublish)
 
 This repository contains my personal analysis about NCOV-19 cases, especially cases in Indonesia.
 
